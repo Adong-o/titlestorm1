@@ -6,6 +6,9 @@
     <title>YouTube Title Generator</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./image (1).svg" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
 </head>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLR456QJDK"></script>
@@ -26,9 +29,10 @@
   gtag('config', 'G-ZLR456QJDK');
 </script>
 <body>
+
     <div class="container">
         <header>
-            <h1 class="glitch" data-text="Title Generator">Title Generator</h1>
+            <h1 class="glitch" data-text="ViralTitles">ViralTitles</h1>
             <p class="description">Generate optimized titles for your YouTube videos or evaluate your title ideas with TitleStorm</p>
         </header>
         <main>
@@ -37,30 +41,24 @@
                 <div class="tab" onclick="showSection('evaluate-title')">Evaluate Title Idea</div>
             </div>
             <div class="content">
-
                 <section id="generate-titles" class="tab-content">
                     <h2>Generate Titles</h2>
                     <input type="text" id="video-link" placeholder="Enter YouTube video link">
                     <button id="generate-button">Generate</button>
-                    <div id="video-title-display">
-                    </div>
-                    <div id="results">
-                    </div>
+                    <div id="video-title-display"></div>
+                    <div id="results"></div>
                 </section>
-
-
-
+                
                 <section id="evaluate-title" class="tab-content">
                     <h2>Evaluate Title Idea</h2>
                     <input type="text" id="title-idea" placeholder="Enter your title idea">
-                    <button onclick="evaluateTitle()" id="evaluate-button">Evaluate</button>
-                    <div id="evaluation-results">
-                    </div>
+                    <button id="evaluate-button">Evaluate</button>
+                    <div id="evaluation-results"></div>
                 </section>
             </div>
         </main>
         <footer>
-            <p>&copy; 2024 Your Company. All rights reserved.</p>
+            <p>&copy; 2024 ViralTitles. All rights reserved.</p>
         </footer>
     </div>
     <script src="./main.js"></script>

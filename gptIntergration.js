@@ -1,4 +1,4 @@
-
+/*
 async function evaluateTitleIdea() {
     const titleIdea = document.getElementById('title-idea').value.trim();
 
@@ -144,4 +144,4 @@ async function generateTitlesFromTitle(videoTitle) {
 }
 
 document.getElementById('generate-button').addEventListener('click', handleGenerateTitles);
-
+*/
